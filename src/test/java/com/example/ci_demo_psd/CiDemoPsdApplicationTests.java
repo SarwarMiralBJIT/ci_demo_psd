@@ -23,4 +23,10 @@ class CiDemoPsdApplicationTests {
 		assertEquals(true, true);
 	}
 
+	@Test
+	void demoTestThird() {
+		logger.info("It's the third test!");
+		assertEquals(true, true);
+	}
+
 }
